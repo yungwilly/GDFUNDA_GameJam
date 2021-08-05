@@ -1,30 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ObjectDetected : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject Panel;
 
     private void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Book_25")
+        Debug.Log("Item is " + col.gameObject.name);
+        if (col.gameObject.name == "SpicyRecipesBook")
         {
-            Debug.Log("Item is Book_25");
+            Debug.Log("You've found the first item");
+            if (Panel != null)
+            {
+                Panel.SetActive(true);
+            }
+            Destroy(col.gameObject);
         }
-        else if (col.gameObject.name == "Book_29")
-        {
-
-        }
+        else
+            Debug.Log("Not included in the list");
     }
 }
