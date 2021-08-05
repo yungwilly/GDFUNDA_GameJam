@@ -1,23 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class ObjectDetected : MonoBehaviour
+public class WrongObjectDetected : MonoBehaviour
 {
     public GameObject Panel;
 
+    public void OpenPanel()
+    {
+        if (Panel != null)
+        {
+            Panel.SetActive(true);
+        }
+    }
+
     private void OnCollisionEnter(Collision col)
     {
-        Debug.Log("Item is " + col.gameObject.name);
-        if (col.gameObject.name == "SpicyRecipesBook")
+        if (col.gameObject.name != "SpicyRecipesBook")
         {
-            Debug.Log("You've found the first item");
             if (Panel != null)
             {
                 Panel.SetActive(true);
             }
-            Destroy(col.gameObject);
         }
     }
 }
