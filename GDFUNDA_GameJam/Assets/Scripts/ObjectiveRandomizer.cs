@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ObjectiveRandomizer : MonoBehaviour
 {
     [SerializeField] private List<GameObject> pool;
-    [SerializeField] private List<GameObject> objectives;
+    [SerializeField] public List<GameObject> objectives;
     [SerializeField] private Text Objective1;
     [SerializeField] private Text Objective2;
     [SerializeField] private Text Objective3;
