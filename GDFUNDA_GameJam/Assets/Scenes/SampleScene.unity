@@ -580,13 +580,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You found an object in the list!
+  m_Text: 
 --- !u!222 &194461450
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2639,7 +2639,6 @@ GameObject:
   - component: {fileID: 827712830}
   - component: {fileID: 827712831}
   - component: {fileID: 827712832}
-  - component: {fileID: 827712833}
   m_Layer: 0
   m_Name: Box (1)
   m_TagString: Untagged
@@ -2693,6 +2692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 1883982133}
+  randomizer: {fileID: 1121268648}
+  message: {fileID: 194461449}
 --- !u!54 &827712832
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2709,19 +2710,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &827712833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827712828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7be7bb614bb7be44faf5c7c7d0f11930, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 104410093}
 --- !u!1 &849872352 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1268163357404018, guid: 0f1a91f0bb3d8d3429a91e85f923157c, type: 3}

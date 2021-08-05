@@ -7,6 +7,7 @@ public class ObjectDetected : MonoBehaviour
 {
     public GameObject Panel;
     public ObjectiveRandomizer randomizer;
+    public Text message;
 
     private void OnCollisionEnter(Collision col)
     {
@@ -19,7 +20,15 @@ public class ObjectDetected : MonoBehaviour
             {
                 Panel.SetActive(true);
             }
+            message.text = "You've found " + col.gameObject.name;
             Destroy(col.gameObject);
+        }else
+        {
+            if (Panel != null)
+            {
+                Panel.SetActive(true);
+            }
+            message.text = col.gameObject.name + " is not part of the list";
         }
     }
 }
