@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class ObjectDetected : MonoBehaviour
 {
     public GameObject Panel;
+    public ObjectiveRandomizer randomizer;
 
     private void OnCollisionEnter(Collision col)
     {
         Debug.Log("Item is " + col.gameObject.name);
-        if (col.gameObject.name == "SpicyRecipesBook")
+        Debug.Log(randomizer.objectives[0]);
+        if (randomizer.objectives.Contains(col.gameObject))
         {
             Debug.Log("You've found the first item");
             if (Panel != null)
