@@ -9,7 +9,7 @@ public class ObjectDetected : MonoBehaviour
     public ObjectiveRandomizer randomizer;
     public Text message;
 
-    private void OnCollisionEnter(Collision col)
+    private IEnumerator OnCollisionEnter(Collision col)
     {
         Debug.Log("Item is " + col.gameObject.name);
         Debug.Log(randomizer.objectives[0]);
@@ -22,6 +22,8 @@ public class ObjectDetected : MonoBehaviour
             }
             message.text = "You've found " + col.gameObject.name;
             Destroy(col.gameObject);
+            yield return new WaitForSeconds(1);
+            Panel.SetActive(false);
         }else
         {
             if (Panel != null)
