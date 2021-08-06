@@ -2005,6 +2005,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 573868685}
     m_Modifications:
+    - target: {fileID: 4840512139798745732, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4840512139798745733, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.957914
@@ -2044,6 +2048,14 @@ PrefabInstance:
     - target: {fileID: 4840512139891353452, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -7.8693733
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840512139891353454, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840512140302076978, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4840512140302076980, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
       propertyPath: m_LocalScale.x
@@ -2215,11 +2227,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4840512140661923970, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 7
+      value: 6.8
       objectReference: {fileID: 0}
     - target: {fileID: 4840512140661923970, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 25.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840512140661923973, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4840512141091103108, guid: 907cf64327c52b84ebe7c857bc5d7b81, type: 3}
       propertyPath: m_LocalScale.x
@@ -3025,7 +3041,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh203876
+  m_Name: pb_Mesh227320
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9469,7 +9485,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh203734
+  m_Name: pb_Mesh227178
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11601,6 +11617,7 @@ MonoBehaviour:
   Objective2: {fileID: 203786218}
   Objective3: {fileID: 203786217}
   Objective4: {fileID: 203786216}
+  texts: []
 --- !u!1 &1605113280
 GameObject:
   m_ObjectHideFlags: 0
@@ -15110,7 +15127,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh204306
+  m_Name: pb_Mesh227756
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

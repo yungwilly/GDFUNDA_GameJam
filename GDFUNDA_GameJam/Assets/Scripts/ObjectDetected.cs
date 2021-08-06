@@ -21,8 +21,15 @@ public class ObjectDetected : MonoBehaviour
                 Panel.SetActive(true);
             }
             message.text = "You've found " + col.gameObject.name;
-            int number = randomizer.texts.IndexOf(col.gameObject.name);
-            randomizer.texts[number] = 
+            int index = 0;
+            for(int i = 0; i < 4; i++)
+            {
+                if(col.gameObject.name.Equals(randomizer.texts[i].text))
+                {
+                    index = i;
+                }
+            }
+            randomizer.texts[index].text = randomizer.texts[index].text + " (Done!)";
             Destroy(col.gameObject);
             yield return new WaitForSeconds(1);
             Panel.SetActive(false);
