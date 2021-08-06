@@ -1544,7 +1544,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1152432382298514, guid: 273dfcdaa60d0b540b1012e22b97d74f, type: 3}
       propertyPath: m_Name
-      value: Corporate Training Directory Book
+      value: Corporate Training Book
       objectReference: {fileID: 0}
     - target: {fileID: 4067658542381872, guid: 273dfcdaa60d0b540b1012e22b97d74f, type: 3}
       propertyPath: m_RootOrder
@@ -5336,7 +5336,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1975070268175658, guid: 7eeab333ed7416f498139b2846cbb10d, type: 3}
       propertyPath: m_Name
-      value: Money Investments Expert Book
+      value: Money Investments Book
       objectReference: {fileID: 0}
     - target: {fileID: 4727377768261228, guid: 7eeab333ed7416f498139b2846cbb10d, type: 3}
       propertyPath: m_RootOrder
