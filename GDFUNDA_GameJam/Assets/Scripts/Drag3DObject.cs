@@ -55,14 +55,14 @@ public class Drag3DObject : MonoBehaviour
     #region User Interface
     public void BeginDrag()
     {
-        OnBeginDrag.Invoke();
+        //OnBeginDrag.Invoke();
         Dragging = true;
         OffSet = MainCamera.WorldToScreenPoint(transform.position) - Input.mousePosition;
     }
 
     public void EndDrag()
     {
-        OnEndDrag.Invoke();
+        //OnEndDrag.Invoke();
         Dragging = false;
 
     }
