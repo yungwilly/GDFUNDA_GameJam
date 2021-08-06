@@ -2,21 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ObjectiveRandomizer : MonoBehaviour
 {
     [SerializeField] private List<GameObject> pool;
     [SerializeField] public List<GameObject> objectives;
-    [SerializeField] private Text Objective1;
-    [SerializeField] private Text Objective2;
-    [SerializeField] private Text Objective3;
-    [SerializeField] private Text Objective4;
+    [SerializeField] public Text Objective1;
+    [SerializeField] public Text Objective2;
+    [SerializeField] public Text Objective3;
+    [SerializeField] public Text Objective4;
+    public List<Text> texts;
 
     // Start is called before the first frame update
     void Start()
     {
         ListAllChildren();
         RandomizeObjectives();
+        texts.Add(Objective1);
+        texts.Add(Objective2);
+        texts.Add(Objective3);
+        texts.Add(Objective4);
     }
 
     // Update is called once per frame
