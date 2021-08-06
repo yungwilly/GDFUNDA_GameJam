@@ -1007,7 +1007,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1189123570260590, guid: 4941dfa9146ec4247801bfca23379626, type: 3}
       propertyPath: m_Name
-      value: SHEEP
+      value: Sheep Stuffed Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4106303222301906, guid: 4941dfa9146ec4247801bfca23379626, type: 3}
       propertyPath: m_RootOrder
@@ -3093,7 +3093,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1268163357404018, guid: 0f1a91f0bb3d8d3429a91e85f923157c, type: 3}
       propertyPath: m_Name
-      value: PIG
+      value: Pig Stuffed Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4105886225802320, guid: 0f1a91f0bb3d8d3429a91e85f923157c, type: 3}
       propertyPath: m_RootOrder
@@ -3623,7 +3623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1676625864700028, guid: 4eda41d20c3564ad789494e2a0e9babb, type: 3}
       propertyPath: m_Name
-      value: Scissors Red
+      value: Red Scissors
       objectReference: {fileID: 0}
     - target: {fileID: 4964344178469470, guid: 4eda41d20c3564ad789494e2a0e9babb, type: 3}
       propertyPath: m_RootOrder
@@ -4237,7 +4237,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1258646480729192, guid: c3eb64e478b2bb748ae1501daf818368, type: 3}
       propertyPath: m_Name
-      value: BEAR
+      value: Bear Stuffed Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4410843128935598, guid: c3eb64e478b2bb748ae1501daf818368, type: 3}
       propertyPath: m_RootOrder
@@ -5013,7 +5013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274085853288620, guid: 99d4c8645da7e43e8ac08906d7ec2948, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.845
+      value: -2.953
       objectReference: {fileID: 0}
     - target: {fileID: 4274085853288620, guid: 99d4c8645da7e43e8ac08906d7ec2948, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5238,7 +5238,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1136636736618064, guid: dcf95e79ad6374967a2db77e1bd6f67a, type: 3}
       propertyPath: m_Name
-      value: Stapler Blue
+      value: Blue Stapler
       objectReference: {fileID: 0}
     - target: {fileID: 4725931965243790, guid: dcf95e79ad6374967a2db77e1bd6f67a, type: 3}
       propertyPath: m_RootOrder
@@ -5500,15 +5500,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4593523601221682, guid: 1a462e7be4e492c42a318ecaa51de6e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.307423
+      value: -14.319
       objectReference: {fileID: 0}
     - target: {fileID: 4593523601221682, guid: 1a462e7be4e492c42a318ecaa51de6e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9566402
+      value: -2.077
       objectReference: {fileID: 0}
     - target: {fileID: 4593523601221682, guid: 1a462e7be4e492c42a318ecaa51de6e9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.61208
+      value: -10.432
       objectReference: {fileID: 0}
     - target: {fileID: 4593523601221682, guid: 1a462e7be4e492c42a318ecaa51de6e9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5725,15 +5725,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4359619589750528, guid: f59a33c8074a57247b87c5b2160c5660, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.384422
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 4359619589750528, guid: f59a33c8074a57247b87c5b2160c5660, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5046406
+      value: -2.934
       objectReference: {fileID: 0}
     - target: {fileID: 4359619589750528, guid: f59a33c8074a57247b87c5b2160c5660, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.054081
+      value: -19.057
       objectReference: {fileID: 0}
     - target: {fileID: 4359619589750528, guid: f59a33c8074a57247b87c5b2160c5660, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8860,15 +8860,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4014317651347240, guid: 8eabee3a247b5fe41bfdcf4b301c41a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.388422
+      value: -4.386
       objectReference: {fileID: 0}
     - target: {fileID: 4014317651347240, guid: 8eabee3a247b5fe41bfdcf4b301c41a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9856396
+      value: -2.043
       objectReference: {fileID: 0}
     - target: {fileID: 4014317651347240, guid: 8eabee3a247b5fe41bfdcf4b301c41a6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.630081
+      value: -10.471
       objectReference: {fileID: 0}
     - target: {fileID: 4014317651347240, guid: 8eabee3a247b5fe41bfdcf4b301c41a6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10859,7 +10859,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156582, guid: 1eae8fbe9ba658a4c940bdf84fc8bbb4, type: 3}
       propertyPath: m_Name
-      value: FryingPan
+      value: Frying Pan
       objectReference: {fileID: 0}
     - target: {fileID: 497852, guid: 1eae8fbe9ba658a4c940bdf84fc8bbb4, type: 3}
       propertyPath: m_RootOrder
@@ -11607,7 +11607,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1502818402513928, guid: d323fc18d7f7cbb4d971d8250d723165, type: 3}
       propertyPath: m_Name
-      value: MONKEY
+      value: Monkey Stuffed Toy
       objectReference: {fileID: 0}
     - target: {fileID: 4808575116110212, guid: d323fc18d7f7cbb4d971d8250d723165, type: 3}
       propertyPath: m_RootOrder
