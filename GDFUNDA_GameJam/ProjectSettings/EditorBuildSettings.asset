@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/NewLevel.unity
     guid: 080a7b1d7dac256479e7c697268bc24c
+  - enabled: 1
+    path: Assets/Scenes/WhiteRoom.unity
+    guid: 7a89bf96115d4e94b91b4c64a8261edd
   m_configObjects: {}
