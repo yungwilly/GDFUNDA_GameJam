@@ -16,14 +16,14 @@ public class SuperSpeedPowerup : MonoBehaviour
 
     IEnumerator Pickup(Collider player)
     {
-        player.transform.localScale *= multiplier;
+        player.transform.Translate(Vector3.forward * multiplier * Time.deltaTime);
 
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
 
         yield return new WaitForSeconds(duration);
 
-        player.transform.localScale /= multiplier;
+        player.transform.Translate(Vector3.forward / multiplier * Time.deltaTime);
 
         Destroy(gameObject);
 
