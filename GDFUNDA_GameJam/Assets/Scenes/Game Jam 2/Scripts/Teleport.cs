@@ -11,23 +11,16 @@ public class Teleport : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            StartCoroutine(Pickup(other));
+            Pickup(other);
         }
     }
 
-    IEnumerator Pickup(Collider player)
+    void Pickup(Collider player)
     {
         player.transform.position += player.transform.forward * multiplier;
-        //player.GetComponent<FirstPersonMovement>().setSpeed(15);
-        //player.transform.Translate(Vector3.forward * multiplier * Time.deltaTime);
 
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
-
-        yield return new WaitForSeconds(duration);
-
-        //player.transform.Translate(Vector3.forward / multiplier * Time.deltaTime);
-        //player.GetComponent<FirstPersonMovement>().setSpeed(5);
 
         Destroy(gameObject);
 
