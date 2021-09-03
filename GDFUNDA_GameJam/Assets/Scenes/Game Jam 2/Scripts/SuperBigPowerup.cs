@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Powerup : MonoBehaviour
+public class SuperBigPowerup : MonoBehaviour
 {
-    public float multiplier = 1.4f;
+    public float multiplier = 10.0f;
     public float duration = 4.0f;
     void OnTriggerEnter(Collider other)
     {
