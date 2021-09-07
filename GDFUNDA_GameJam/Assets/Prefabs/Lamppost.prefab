@@ -40,11 +40,11 @@ Light:
   m_GameObject: {fileID: 293924526389136861}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 0
+  m_Type: 3
   m_Shape: 0
-  m_Color: {r: 0.9427508, g: 1, b: 0, a: 1}
-  m_Intensity: 10
-  m_Range: 10
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 20
+  m_Range: 30
   m_SpotAngle: 120
   m_InnerSpotAngle: 1
   m_CookieSize: 10
@@ -82,7 +82,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 0.659502, y: 0.32147026}
   m_BounceIntensity: 1
@@ -1031,7 +1031,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 80163557887c0fd4ba8ac2bbaee52a17, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
