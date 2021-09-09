@@ -36,6 +36,15 @@ public class TimerController : MonoBehaviour
         StartCoroutine(UpdateTimer());
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Finish")
+        {
+            EndTimer();
+            Debug.Log("collided with goal");
+        }
+    }
+
     public void EndTimer()
     {
         timerGoing = false;
@@ -59,4 +68,6 @@ public class TimerController : MonoBehaviour
     {
         
     }
+    
+
 }
