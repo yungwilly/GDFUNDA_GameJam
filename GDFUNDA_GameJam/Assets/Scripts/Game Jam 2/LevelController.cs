@@ -100,7 +100,7 @@ public class LevelController : MonoBehaviour
 
     public void levelReset()
     {
-        endScreen.SetActive(false);
+        endScreen.GetComponent<Canvas>().enabled = false;
         Debug.Log(powerups.transform.childCount);
         for (int i = 0; i < powerups.transform.childCount; ++i)
         {
@@ -126,7 +126,7 @@ public class LevelController : MonoBehaviour
     public void showEndScreen()
     {
         //blackout();
-        endScreen.SetActive(true);
+        endScreen.GetComponent<Canvas>().enabled = true;
     }
 
     public void blackin()
