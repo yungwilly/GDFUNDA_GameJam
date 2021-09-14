@@ -100,14 +100,16 @@ public class LevelController : MonoBehaviour
 
     public void levelReset()
     {
+        endScreen.SetActive(false);
         Debug.Log(powerups.transform.childCount);
         for (int i = 0; i < powerups.transform.childCount; ++i)
         {
-            powerups.transform.GetChild(i).gameObject.SetActive(true); // or false
+            powerups.transform.GetChild(i).gameObject.SetActive(true);
+            powerups.transform.GetChild(i).gameObject.GetComponent<Collider>().enabled = true;
+            powerups.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>().enabled = true;
+            Debug.Log(powerups.transform.GetChild(i).gameObject.ToString());
         }
         returnToSpawn();
-        endScreen.SetActive(false);
-
     }
 
     public void returnToSpawn()
