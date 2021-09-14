@@ -9,10 +9,11 @@ public class LevelController : MonoBehaviour
     [SerializeField] TimerController TController;
     [SerializeField] GameObject FPSCamera;
     [SerializeField] Text timerText;
+    bool levelFinished;
     // Start is called before the first frame update
     void Start()
     {
-        
+        levelFinished = false;
     }
 
     // Update is called once per frame
@@ -33,7 +34,7 @@ public class LevelController : MonoBehaviour
 
     public void endLevel()
     {
-
+        levelFinished = true;
     }
 
     public void beginLevel()
