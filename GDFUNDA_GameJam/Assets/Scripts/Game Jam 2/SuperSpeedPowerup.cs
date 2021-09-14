@@ -17,7 +17,8 @@ public class SuperSpeedPowerup : MonoBehaviour
 
     IEnumerator Pickup(Collider player)
     {
-        player.GetComponent<FirstPersonMovement>().setSpeed(20);
+        player.GetComponent<FirstPersonMovement>().setSpeed(15);
+        player.GetComponent<FirstPersonMovement>().setRunSpeed(25);
         //player.transform.Translate(Vector3.forward * multiplier * Time.deltaTime);
 
         GetComponent<MeshRenderer>().enabled = false;
@@ -27,6 +28,7 @@ public class SuperSpeedPowerup : MonoBehaviour
 
         //player.transform.Translate(Vector3.forward / multiplier * Time.deltaTime);
         player.GetComponent<FirstPersonMovement>().setSpeed(10);
+        player.GetComponent<FirstPersonMovement>().setRunSpeed(15);
 
         Destroy(gameObject);
 
