@@ -21299,7 +21299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1516307884609076, guid: 1c6290f76fd11c74fa326bdf8cd95a9f, type: 3}
       propertyPath: m_TagString
-      value: Finish
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1516307884609076, guid: 1c6290f76fd11c74fa326bdf8cd95a9f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34868,7 +34868,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.615, y: 0.5}
   m_AnchorMax: {x: 0.615, y: 0.5}
-  m_AnchoredPosition: {x: -0.20020294, y: 0}
+  m_AnchoredPosition: {x: -0.20019531, y: 0}
   m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1281123604
@@ -42814,7 +42814,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.79, y: 0.43637612}
   m_AnchorMax: {x: 0.79, y: 0.43637612}
-  m_AnchoredPosition: {x: -1.199997, y: -1.9100037}
+  m_AnchoredPosition: {x: -1.2000122, y: -1.9100037}
   m_SizeDelta: {x: 47.37, y: 21.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610130987

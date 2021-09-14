@@ -38,11 +38,11 @@ public class TimerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Finish")
-        {
-            EndTimer();
-            Debug.Log("collided with goal");
-        }
+        //if(collision.gameObject.tag == "Finish")
+        //{
+            //EndTimer();
+            //Debug.Log("collided with goal");
+        //}
     }
 
     public void EndTimer()

@@ -21,6 +21,21 @@ public class LevelController : MonoBehaviour
         
     }
 
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Finish")
+        {
+            TController.EndTimer();
+            Debug.Log("collided with goal");
+            endLevel();
+        }
+    }
+
+    public void endLevel()
+    {
+
+    }
+
     public void beginLevel()
     {
         Debug.Log("test");
