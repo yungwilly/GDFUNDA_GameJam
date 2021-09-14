@@ -14,7 +14,7 @@ public class CharSpeech : MonoBehaviour
 
     void Start()
     {
-        ConversationManager.Instance.StartConversation(myConversation);
+        //ConversationManager.Instance.StartConversation(myConversation);
     }
 
 

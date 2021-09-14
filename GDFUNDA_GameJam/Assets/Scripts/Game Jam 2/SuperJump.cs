@@ -28,7 +28,7 @@ public class SuperJump : MonoBehaviour
         //player.transform.Translate(Vector3.forward / multiplier * Time.deltaTime);
         player.GetComponent<Jump>().setJumpStrength(2);
 
-        Destroy(gameObject);
+        gameObject.SetActive(false);
 
     }
 }

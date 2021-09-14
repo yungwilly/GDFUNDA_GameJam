@@ -22,7 +22,7 @@ public class Teleport : MonoBehaviour
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
 
-        Destroy(gameObject);
+        gameObject.SetActive(false);
 
     }
 }

@@ -9,6 +9,7 @@ public class TimerController : MonoBehaviour
     public static TimerController instance;
 
     public Text timeCounter;
+    public Text playerTime;
 
     private TimeSpan timePlaying;
     private bool timerGoing;
@@ -48,6 +49,9 @@ public class TimerController : MonoBehaviour
     public void EndTimer()
     {
         timerGoing = false;
+        Debug.Log(timeCounter.text);
+        playerTime.text = timeCounter.text;
+        Debug.Log(playerTime.text);
     }
 
     private IEnumerator UpdateTimer()

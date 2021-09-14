@@ -25,7 +25,7 @@ public class SuperBigPowerup : MonoBehaviour
 
         player.transform.localScale /= multiplier;
 
-        Destroy(gameObject);
+        gameObject.SetActive(false);
 
     }
 }

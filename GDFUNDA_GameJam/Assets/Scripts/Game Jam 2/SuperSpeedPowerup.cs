@@ -30,7 +30,7 @@ public class SuperSpeedPowerup : MonoBehaviour
         player.GetComponent<FirstPersonMovement>().setSpeed(10);
         player.GetComponent<FirstPersonMovement>().setRunSpeed(15);
 
-        Destroy(gameObject);
+        gameObject.SetActive(false);
 
     }
 }

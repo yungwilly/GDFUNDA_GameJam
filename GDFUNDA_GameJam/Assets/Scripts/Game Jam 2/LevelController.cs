@@ -10,14 +10,22 @@ public class LevelController : MonoBehaviour
     [SerializeField] TimerController TController;
     [SerializeField] GameObject FPSCamera;
     [SerializeField] GameObject timerText;
+    [SerializeField] NPCConversation startConvoManager;
     [SerializeField] NPCConversation endConvoManager;
     [SerializeField] GameObject blackoutSquare;
-    bool levelFinished;
+    [SerializeField] GameObject player;
+    [SerializeField] GameObject endScreen;
+    [SerializeField] GameObject powerups;
+    private bool powerupsChildren;
+    private bool quickRestartflag = false;
+    private bool storyRestartflag = false;
+    private Vector3 spawnPoint = new Vector3((float)-27.87, 0, (float)-36.35);
     // Start is called before the first frame update
     void Start()
     {
-        levelFinished = false;
+        ConversationManager.Instance.StartConversation(startConvoManager);
         lockPlayerMovement();
+
     }
 
     // Update is called once per frame
@@ -48,11 +56,18 @@ public class LevelController : MonoBehaviour
 
     public void endLevel()
     {
-        levelFinished = true;
-        ConversationManager.Instance.StartConversation(endConvoManager);
-        lockPlayerMovement();
-        timerText.SetActive(false);
-        blackout();
+        if (quickRestartflag == true)
+        {
+            showEndScreen();
+        }
+        else
+        {
+            ConversationManager.Instance.StartConversation(endConvoManager);
+            lockPlayerMovement();
+            timerText.SetActive(false);
+            blackout();
+        }
+        //showEndScreen();
     }
 
     public void beginLevel()
@@ -63,6 +78,53 @@ public class LevelController : MonoBehaviour
         FPSCamera.SetActive(true);
         timerText.SetActive(true);
         unlockPlayerMovement();
+    }
+
+    public void quickRestart()
+    {
+        quickRestartflag = true;
+        storyRestartflag = false;
+        levelReset();
+        beginLevel();
+    }
+
+    public void storyRestart()
+    {
+        quickRestartflag = false;
+        storyRestartflag = true;
+        levelReset();
+        ConversationManager.Instance.StartConversation(startConvoManager);
+        lockPlayerMovement();
+        FPSCamera.SetActive(false);
+    }
+
+    public void levelReset()
+    {
+        Debug.Log(powerups.transform.childCount);
+        for (int i = 0; i < powerups.transform.childCount; ++i)
+        {
+            powerups.transform.GetChild(i).gameObject.SetActive(true); // or false
+        }
+        returnToSpawn();
+        endScreen.SetActive(false);
+
+    }
+
+    public void returnToSpawn()
+    {
+        player.transform.position = spawnPoint;
+    }
+
+    public void bringPlayerToJail()
+    {
+        player.transform.position = new Vector3(114, 0, 161);
+        blackin();
+    }
+
+    public void showEndScreen()
+    {
+        //blackout();
+        endScreen.SetActive(true);
     }
 
     public void blackin()
@@ -83,7 +145,7 @@ public class LevelController : MonoBehaviour
         if(fadeToBlack)
         {
             Debug.Log("blackout");
-            while(blackoutSquare.GetComponent<Image>().color.a<255)
+            while(blackoutSquare.GetComponent<Image>().color.a<1)
             {
                 fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
 
@@ -92,10 +154,12 @@ public class LevelController : MonoBehaviour
                 yield return null;
             }
         }
-        else 
+        else
         {
-            while(blackoutSquare.GetComponent<Image>().color.a>0)
+            Debug.Log("blackin");
+            while (blackoutSquare.GetComponent<Image>().color.a>0)
             {
+                Debug.Log(blackoutSquare.GetComponent<Image>().color.a);
                 fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
 
                 objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
