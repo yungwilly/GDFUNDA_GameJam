@@ -1,0 +1,19 @@
+{
+    "uploadEntries": [
+        {
+            "AltspaceId": "",
+            "Name": "",
+            "IsEnabled": true,
+            "UploadItems": [
+                {
+                    "PrefabFilepath": "",
+                    "ForAndroid": true,
+                    "ForWin": true,
+                    "ForMac": true
+                }
+            ],
+            "PerPlatformAssets": false,
+            "HideContents": false
+        }
+    ]
+}

@@ -11,4 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WhiteRoom.unity
     guid: 7a89bf96115d4e94b91b4c64a8261edd
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6a85a503f3469eb4cbd096e803993376, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d66b415d2a91713449d2d9487af0929e, type: 2}
