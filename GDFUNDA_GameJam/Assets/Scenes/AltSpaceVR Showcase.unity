@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -359,6 +359,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Glass Filled_BeerDark (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521695816394928, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4024950382491544, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -438,7 +446,7 @@ GameObject:
   - component: {fileID: 49223135}
   - component: {fileID: 49223134}
   - component: {fileID: 49223133}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,6 +541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SquareTable (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -598,6 +610,18 @@ PrefabInstance:
     - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_Name
       value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
@@ -681,6 +705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoundTable
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2a4091fd6acfbeb468005c5cf0e37038, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a4091fd6acfbeb468005c5cf0e37038, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -739,9 +767,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 321805059}
     m_Modifications:
+    - target: {fileID: 1131465860111302, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274591584918276, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1677677177501136, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
       propertyPath: m_Name
       value: Beer_Bottle_01_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677677177501136, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4586677280323088, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
       propertyPath: m_RootOrder
@@ -975,11 +1015,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1936933660}
+    m_TransformParent: {fileID: 995893156}
     m_Modifications:
     - target: {fileID: 1302047771308804, guid: 21681e730cde2224f98d68910334a49e, type: 3}
       propertyPath: m_Name
       value: Int_WBG_02_CenterPanBlockTall_01_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302047771308804, guid: 21681e730cde2224f98d68910334a49e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4150798336731370, guid: 21681e730cde2224f98d68910334a49e, type: 3}
       propertyPath: m_RootOrder
@@ -1058,6 +1102,18 @@ PrefabInstance:
     - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_Name
       value: Chair (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
@@ -1140,6 +1196,18 @@ PrefabInstance:
     - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_Name
       value: Chair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
@@ -1224,7 +1292,7 @@ GameObject:
   - component: {fileID: 301000312}
   - component: {fileID: 301000311}
   - component: {fileID: 301000310}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1317,7 +1385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 314795108}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: RoundTableSet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1340,7 +1408,7 @@ Transform:
   - {fileID: 289059671}
   - {fileID: 565570307}
   - {fileID: 1079326151}
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &321805058
@@ -1352,7 +1420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 321805059}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: BoothSet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1376,7 +1444,7 @@ Transform:
   - {fileID: 1438821032}
   - {fileID: 121833627}
   - {fileID: 352455700}
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &344306081
@@ -1391,7 +1459,7 @@ GameObject:
   - component: {fileID: 344306084}
   - component: {fileID: 344306083}
   - component: {fileID: 344306082}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1470,9 +1538,9 @@ Transform:
   m_GameObject: {fileID: 344306081}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 101.75001, y: 22.41, z: 76.48}
-  m_LocalScale: {x: 1.5000001, y: 0, z: 10}
+  m_LocalScale: {x: 1.5000002, y: 0, z: 10}
   m_Children: []
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &350118614
@@ -1484,7 +1552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 350118615}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: BoothSet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1508,7 +1576,7 @@ Transform:
   - {fileID: 53254005}
   - {fileID: 1847330892}
   - {fileID: 1644188741}
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &352455699
@@ -1521,6 +1589,14 @@ PrefabInstance:
     - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_Name
       value: Beer Glass Filled_BeerDark (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521695816394928, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4024950382491544, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_RootOrder
@@ -1600,6 +1676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SquareTable (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1662,9 +1742,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 350118615}
     m_Modifications:
+    - target: {fileID: 100004, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_Name
       value: sofa_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_RootOrder
@@ -1737,7 +1829,7 @@ GameObject:
   - component: {fileID: 383959016}
   - component: {fileID: 383959015}
   - component: {fileID: 383959014}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1833,7 +1925,7 @@ GameObject:
   - component: {fileID: 385440393}
   - component: {fileID: 385440392}
   - component: {fileID: 385440391}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1928,6 +2020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SquareTable (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1990,9 +2086,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 350118615}
     m_Modifications:
+    - target: {fileID: 100004, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_Name
       value: sofa_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_RootOrder
@@ -2063,6 +2171,18 @@ PrefabInstance:
     - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_Name
       value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
@@ -2311,7 +2431,7 @@ GameObject:
   - component: {fileID: 448602260}
   - component: {fileID: 448602259}
   - component: {fileID: 448602258}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2407,7 +2527,7 @@ GameObject:
   - component: {fileID: 448837583}
   - component: {fileID: 448837582}
   - component: {fileID: 448837581}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2503,7 +2623,7 @@ GameObject:
   - component: {fileID: 456669342}
   - component: {fileID: 456669341}
   - component: {fileID: 456669340}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2598,6 +2718,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2679,6 +2811,18 @@ PrefabInstance:
     - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_Name
       value: Chair (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
@@ -2927,7 +3071,7 @@ GameObject:
   - component: {fileID: 703680082}
   - component: {fileID: 703680081}
   - component: {fileID: 703680080}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3023,7 +3167,7 @@ GameObject:
   - component: {fileID: 725815271}
   - component: {fileID: 725815270}
   - component: {fileID: 725815269}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3104,7 +3248,7 @@ Transform:
   m_LocalPosition: {x: 74.24152, y: 14.754728, z: 23.535652}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_Children: []
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &740595010
@@ -3278,9 +3422,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 321805059}
     m_Modifications:
+    - target: {fileID: 100004, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_Name
       value: sofa_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_RootOrder
@@ -3353,7 +3509,7 @@ GameObject:
   - component: {fileID: 897382671}
   - component: {fileID: 897382670}
   - component: {fileID: 897382669}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3936,9 +4092,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1196543720}
     m_Modifications:
+    - target: {fileID: 100004, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_Name
       value: sofa_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_RootOrder
@@ -4327,6 +4495,51 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &995893155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995893156}
+  m_Layer: 14
+  m_Name: Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &995893156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995893155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1550246193}
+  - {fileID: 226068554}
+  - {fileID: 725815273}
+  - {fileID: 344306086}
+  - {fileID: 1545990878}
+  - {fileID: 1532550447}
+  - {fileID: 1410260141}
+  - {fileID: 350118615}
+  - {fileID: 321805059}
+  - {fileID: 1849246944}
+  - {fileID: 314795108}
+  - {fileID: 1727857507}
+  - {fileID: 1503145831}
+  - {fileID: 1882509696}
+  - {fileID: 1196543720}
+  m_Father: {fileID: 1936933660}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1049214173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4337,6 +4550,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_Name
       value: SquareTable (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_RootOrder
@@ -4403,6 +4620,18 @@ PrefabInstance:
     - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_Name
       value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
@@ -4486,6 +4715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SquareTable (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4551,6 +4784,18 @@ PrefabInstance:
     - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_Name
       value: Chair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
@@ -4634,6 +4879,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4712,9 +4969,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1196543720}
     m_Modifications:
+    - target: {fileID: 1131465860111302, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274591584918276, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1677677177501136, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
       propertyPath: m_Name
       value: Beer_Bottle_01_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677677177501136, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4586677280323088, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
       propertyPath: m_RootOrder
@@ -4788,7 +5057,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1196543720}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: BoothSet (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4812,7 +5081,7 @@ Transform:
   - {fileID: 396217730}
   - {fileID: 1194572754}
   - {fileID: 44566528}
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1294057627
@@ -4990,6 +5259,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5071,6 +5352,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_Name
       value: SquareTable (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_RootOrder
@@ -5303,7 +5588,7 @@ GameObject:
   - component: {fileID: 1410260139}
   - component: {fileID: 1410260138}
   - component: {fileID: 1410260137}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5384,7 +5669,7 @@ Transform:
   m_LocalPosition: {x: 127.3, y: 22.41, z: 56.48}
   m_LocalScale: {x: 1.5, y: 0, z: 12.78}
   m_Children: []
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: -90}
 --- !u!1001 &1438821031
@@ -5397,6 +5682,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_Name
       value: SquareTable (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_RootOrder
@@ -5626,7 +5915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1503145831}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: BoothSet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5650,7 +5939,7 @@ Transform:
   - {fileID: 1069978694}
   - {fileID: 1839557433}
   - {fileID: 1679960597}
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1512744199
@@ -5829,7 +6118,7 @@ GameObject:
   - component: {fileID: 1532550445}
   - component: {fileID: 1532550444}
   - component: {fileID: 1532550443}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5910,7 +6199,7 @@ Transform:
   m_LocalPosition: {x: 127.3, y: 22.41, z: 76.48}
   m_LocalScale: {x: 1.5, y: 0, z: 12.78}
   m_Children: []
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: -90}
 --- !u!1 &1539736319
@@ -5925,7 +6214,7 @@ GameObject:
   - component: {fileID: 1539736323}
   - component: {fileID: 1539736322}
   - component: {fileID: 1539736321}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6021,7 +6310,7 @@ GameObject:
   - component: {fileID: 1545990876}
   - component: {fileID: 1545990875}
   - component: {fileID: 1545990874}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6100,9 +6389,9 @@ Transform:
   m_GameObject: {fileID: 1545990873}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 127.3, y: 22.41, z: 76.48}
-  m_LocalScale: {x: 1.5000001, y: 0, z: 10}
+  m_LocalScale: {x: 1.5000002, y: 0, z: 10}
   m_Children: []
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1550246191
@@ -6115,7 +6404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1550246193}
   - component: {fileID: 1550246192}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6195,7 +6484,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1559335800
@@ -6205,9 +6494,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1196543720}
     m_Modifications:
+    - target: {fileID: 100004, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_Name
       value: sofa_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_RootOrder
@@ -6444,7 +6745,7 @@ GameObject:
   - component: {fileID: 1605649234}
   - component: {fileID: 1605649233}
   - component: {fileID: 1605649232}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6540,7 +6841,7 @@ GameObject:
   - component: {fileID: 1612201873}
   - component: {fileID: 1612201872}
   - component: {fileID: 1612201871}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6795,9 +7096,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1503145831}
     m_Modifications:
+    - target: {fileID: 100004, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_Name
       value: sofa_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_RootOrder
@@ -6868,6 +7181,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_Name
       value: SquareTable (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 60e892bc26a066649ab14df704128623, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 60e892bc26a066649ab14df704128623, type: 3}
       propertyPath: m_RootOrder
@@ -7098,6 +7415,14 @@ PrefabInstance:
     - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_Name
       value: Beer Glass Filled_BeerDark (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521695816394928, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4024950382491544, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_RootOrder
@@ -7341,6 +7666,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Glass Filled_BeerDark (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521695816394928, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4024950382491544, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -7419,6 +7752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoundTable
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2a4091fd6acfbeb468005c5cf0e37038, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a4091fd6acfbeb468005c5cf0e37038, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7479,7 +7816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1727857507}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: RoundTableSet (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7501,7 +7838,7 @@ Transform:
   - {fileID: 53300194}
   - {fileID: 550097102}
   - {fileID: 1331014058}
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -17.626, z: 0}
 --- !u!43 &1760640069
@@ -7844,7 +8181,7 @@ GameObject:
   - component: {fileID: 1805767654}
   - component: {fileID: 1805767653}
   - component: {fileID: 1805767652}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8099,9 +8436,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1503145831}
     m_Modifications:
+    - target: {fileID: 1131465860111302, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274591584918276, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1677677177501136, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
       propertyPath: m_Name
       value: Beer_Bottle_01_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677677177501136, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4586677280323088, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
       propertyPath: m_RootOrder
@@ -8173,9 +8522,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 350118615}
     m_Modifications:
+    - target: {fileID: 1131465860111302, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274591584918276, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1677677177501136, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
       propertyPath: m_Name
       value: Beer_Bottle_01_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677677177501136, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4586677280323088, guid: 71a5b08ae40f1724ca1ea22f4da7ea79, type: 3}
       propertyPath: m_RootOrder
@@ -8249,7 +8610,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1849246944}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: RoundTableSet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8272,7 +8633,7 @@ Transform:
   - {fileID: 1076601494}
   - {fileID: 288605732}
   - {fileID: 1880012677}
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1880012676
@@ -8285,6 +8646,18 @@ PrefabInstance:
     - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_Name
       value: Chair (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056120982340450, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101764288082712, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494809506474344, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4345901071339074, guid: 6d6b709c20acb1840a72d83aba78580e, type: 3}
       propertyPath: m_RootOrder
@@ -8369,7 +8742,7 @@ GameObject:
   - component: {fileID: 1882509694}
   - component: {fileID: 1882509693}
   - component: {fileID: 1882509692}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8450,7 +8823,7 @@ Transform:
   m_LocalPosition: {x: 115.31, y: 14.8, z: 68.46}
   m_LocalScale: {x: 3, y: 4, z: 2}
   m_Children: []
-  m_Father: {fileID: 1936933660}
+  m_Father: {fileID: 995893156}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1935888154
@@ -8465,7 +8838,7 @@ GameObject:
   - component: {fileID: 1935888158}
   - component: {fileID: 1935888157}
   - component: {fileID: 1935888156}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8576,21 +8949,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1550246193}
-  - {fileID: 226068554}
-  - {fileID: 725815273}
-  - {fileID: 344306086}
-  - {fileID: 1545990878}
-  - {fileID: 1532550447}
-  - {fileID: 1410260141}
-  - {fileID: 350118615}
-  - {fileID: 321805059}
-  - {fileID: 1849246944}
-  - {fileID: 314795108}
-  - {fileID: 1727857507}
-  - {fileID: 1503145831}
-  - {fileID: 1882509696}
-  - {fileID: 1196543720}
+  - {fileID: 995893156}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8601,9 +8960,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1503145831}
     m_Modifications:
+    - target: {fileID: 100004, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_Name
       value: sofa_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_RootOrder
@@ -8840,7 +9211,7 @@ GameObject:
   - component: {fileID: 1965582525}
   - component: {fileID: 1965582524}
   - component: {fileID: 1965582523}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8935,6 +9306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoundTable
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2a4091fd6acfbeb468005c5cf0e37038, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a4091fd6acfbeb468005c5cf0e37038, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -8998,7 +9373,7 @@ GameObject:
   - component: {fileID: 1970538896}
   - component: {fileID: 1970538895}
   - component: {fileID: 1970538894}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9089,9 +9464,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 321805059}
     m_Modifications:
+    - target: {fileID: 100004, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_Name
       value: sofa_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8cef4c90a64b6564ca61184c68b8d442, type: 3}
       propertyPath: m_RootOrder
