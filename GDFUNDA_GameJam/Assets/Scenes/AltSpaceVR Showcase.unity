@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -194,6 +194,10 @@ PrefabInstance:
     - target: {fileID: 1029688268505342, guid: cc0e9df539610dd4484e9f8f9fe75959, type: 3}
       propertyPath: m_Name
       value: Bar_01_corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029688268505342, guid: cc0e9df539610dd4484e9f8f9fe75959, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4756808279686030, guid: cc0e9df539610dd4484e9f8f9fe75959, type: 3}
       propertyPath: m_RootOrder
@@ -1125,6 +1129,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
       propertyPath: m_Name
       value: WoodenStoolBacked (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
       propertyPath: m_RootOrder
@@ -2433,6 +2441,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Glass Filled_BeerDark
       objectReference: {fileID: 0}
+    - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521695816394928, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4024950382491544, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2670,6 +2686,14 @@ PrefabInstance:
     - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_Name
       value: Beer Glass Filled_BeerDark (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460110586303904, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521695816394928, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4024950382491544, guid: ea6b92010af011b44bb5f850542d3def, type: 3}
       propertyPath: m_RootOrder
@@ -2936,6 +2960,10 @@ PrefabInstance:
     - target: {fileID: 1339217858051514, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
       propertyPath: m_Name
       value: Bar_01_mod (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339217858051514, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4118406110049250, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
       propertyPath: m_RootOrder
@@ -3283,6 +3311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bar_01_mod (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1339217858051514, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4118406110049250, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -3508,6 +3540,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
       propertyPath: m_Name
       value: WoodenStoolBacked (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
       propertyPath: m_RootOrder
@@ -4003,11 +4039,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1936933660}
     m_Modifications:
     - target: {fileID: 1006220266698412, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
       propertyPath: m_Name
       value: Int_WBG_02_WallPan_02_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1006220266698412, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4309082537394886, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
       propertyPath: m_RootOrder
@@ -4035,7 +4075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4309082537394886, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4309082537394886, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4043,7 +4083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4309082537394886, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4309082537394886, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4059,6 +4099,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
+--- !u!4 &848273939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4309082537394886, guid: 646d8c8d0e368c94980a997dc2731968, type: 3}
+  m_PrefabInstance: {fileID: 848273938}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &897382667
 GameObject:
   m_ObjectHideFlags: 0
@@ -5119,6 +5164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bar_01_mod (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1339217858051514, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4118406110049250, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5603,6 +5652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bar_01_mod (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1339217858051514, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4118406110049250, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -6045,6 +6098,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Glass Fancy_RedWine
       objectReference: {fileID: 0}
+    - target: {fileID: 1430355302264918, guid: fdfd9d8c9ade64d418fb5b72833da55b, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991702870929008, guid: fdfd9d8c9ade64d418fb5b72833da55b, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4489991771671754, guid: fdfd9d8c9ade64d418fb5b72833da55b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6118,6 +6179,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
       propertyPath: m_Name
       value: WoodenStoolBacked (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
       propertyPath: m_RootOrder
@@ -7408,6 +7473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bar_01_mod (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1339217858051514, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4118406110049250, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -8552,9 +8621,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 77797968}
     m_Modifications:
+    - target: {fileID: 1254102776108680, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1587042462794946, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
       propertyPath: m_Name
       value: curved beer glass_LightBeer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587042462794946, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4177192357026972, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
       propertyPath: m_RootOrder
@@ -8712,9 +8789,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 77797968}
     m_Modifications:
+    - target: {fileID: 1254102776108680, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1587042462794946, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
       propertyPath: m_Name
       value: curved beer glass_LightBeer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587042462794946, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4177192357026972, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
       propertyPath: m_RootOrder
@@ -9478,6 +9563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenStoolBacked (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -9937,6 +10026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WoodenStoolBacked
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 58029078ad80eac4993a755bab37f842, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -10112,6 +10205,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 995893156}
+  - {fileID: 848273939}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10708,9 +10802,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 77797968}
     m_Modifications:
+    - target: {fileID: 1254102776108680, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 1587042462794946, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
       propertyPath: m_Name
       value: curved beer glass_LightBeer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587042462794946, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4177192357026972, guid: af2d2c91cc9bfd748b1771b04a076665, type: 3}
       propertyPath: m_RootOrder
@@ -10785,6 +10887,10 @@ PrefabInstance:
     - target: {fileID: 1339217858051514, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
       propertyPath: m_Name
       value: Bar_01_mod
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339217858051514, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4118406110049250, guid: 5aa3b4b1555c0644ea1f4723f81b9da9, type: 3}
       propertyPath: m_RootOrder
