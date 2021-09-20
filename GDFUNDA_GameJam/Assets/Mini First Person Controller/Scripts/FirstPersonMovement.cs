@@ -36,28 +36,9 @@ public class FirstPersonMovement : MonoBehaviour
         }
 
         // Get targetVelocity from input.
-        Vector2 targetVelocity = new Vector2(Input.GetAxis("Horizontal") * targetMovingSpeed, Input.GetAxis("Vertical") * targetMovingSpeed);
+        Vector2 targetVelocity =new Vector2( Input.GetAxis("Horizontal") * targetMovingSpeed, Input.GetAxis("Vertical") * targetMovingSpeed);
 
         // Apply movement.
         rigidbody.velocity = transform.rotation * new Vector3(targetVelocity.x, rigidbody.velocity.y, targetVelocity.y);
-    }
-
-    public float getSpeed()
-    {
-        return speed;
-    }
-    public void setSpeed(float newSpeed)
-    {
-        speed = newSpeed;
-    }
-
-    public float getRunSpeed()
-    {
-        return runSpeed;
-    }
-
-    public void setRunSpeed(float newRunSpeed)
-    {
-        runSpeed = newRunSpeed;
     }
 }
